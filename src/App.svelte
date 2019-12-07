@@ -1,6 +1,7 @@
 <script>
   import Graph from "./components/Graph.svelte";
-  import Spinner from "./components/Spinner.svelte";
+  import Spinner from "./components/Spinner/Spinner.svelte";
+  import DotWave from "./components/DotWave/DotWave.svelte";
 </script>
 
 <style>
@@ -20,6 +21,8 @@
 </style>
 
 <main>
+  <h1>DotWave</h1>
+  <DotWave />
   <h1>Loader</h1>
   <Spinner ndots={20} />
   <h1>Graph</h1>

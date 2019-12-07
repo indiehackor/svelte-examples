@@ -21,7 +21,7 @@
 
 <main>
   <h1>Loader</h1>
-  <Spinner ndots={30} />
+  <Spinner ndots={20} />
   <h1>Graph</h1>
   <Graph />
 </main>

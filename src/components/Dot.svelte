@@ -32,4 +32,4 @@
   class="dot"
   style="--shiftRadius: {shiftRadius}px; --radius: {radius}px; --deg: {index * deg}deg;
   --delay: {index * (duration / ndots)}ms; --ndots: {ndots * (duration / ndots)}ms;
-  transform: rotate(var(--deg)) translateX({radius}px)" />
+  transform: rotate(var(--deg)) translateX({radius - 3}px)" />
